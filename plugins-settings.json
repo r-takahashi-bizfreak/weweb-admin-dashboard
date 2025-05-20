@@ -1,0 +1,71 @@
+{
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "a22cfbb1-ced4-45c4-9918-835a53110c35",
+        "name": "REST API",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "fbf0feec-356b-461b-8738-3b1f44edaf02": {
+        "id": "6cc3eb9e-b015-49bf-aa5e-e612c11bddbe",
+        "name": "Google GTM",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "fbf0feec-356b-461b-8738-3b1f44edaf02",
+        "publicData": {
+            "containerIdProd": "*********",
+            "containerIdEditor": "*********",
+            "containerIdStaging": "*********"
+        }
+    },
+    "00d22f72-1a03-44f8-ad68-c593dc80b543": {
+        "id": "28fd1911-f0d5-438b-af7c-a7cdb0cc5853",
+        "name": "Stripe",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "00d22f72-1a03-44f8-ad68-c593dc80b543",
+        "publicData": {
+            "publicApiKey": "******************"
+        }
+    },
+    "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
+        "id": "2bec83bc-e383-4102-940a-4175fbcfad35",
+        "name": "Charts",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
+        "publicData": {}
+    },
+    "6a64802c-52f8-4637-9932-580bf178aaa7": {
+        "id": "d44f6bae-ec33-4d0b-a6ea-345376319b04",
+        "name": "WeWeb Auth",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "6a64802c-52f8-4637-9932-580bf178aaa7",
+        "publicData": {
+            "clientId": "599q36ke6cjsqr1j7ghse5l76n",
+            "userPoolId": "us-east-1_xeNhM3Msa",
+            "invitationEmail": {
+                "EmailMessage": "Hi,<br/><br/>You have been invited to join the <b>Admin Dashboard</b> application.<br/>Please login with your email <b>{username}</b> using the password below:<br/><b>{####}</b><br/><br/>Best.",
+                "EmailSubject": "Invitation to join Admin Dashboard application"
+            },
+            "verificationEmail": {
+                "EmailMessage": "Hi,<br/><br/>Here is your verification code <b>{####}</b> to change your password on the <b>Admin Dashboard</b> application.<br/><br/>Best.<br/>",
+                "EmailSubject": "Your verification code for Admin Dashboard application",
+                "DefaultEmailOption": "CONFIRM_WITH_CODE"
+            },
+            "afterForbiddenPageId": "87082257-c39e-4b0d-84de-268a8cba3a35",
+            "afterNotSignInPageId": "87082257-c39e-4b0d-84de-268a8cba3a35"
+        }
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "9d4c2038-1364-4ee7-b9c2-d1139f8f0e42",
+        "name": "Supabase",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {}
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "0101e246-b575-441a-8d1f-8f6757e13582",
+        "name": "Supabase Auth",
+        "designId": "8fd638f2-70c2-4bae-bc2b-74429b8bea97",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {}
+    }
+}
